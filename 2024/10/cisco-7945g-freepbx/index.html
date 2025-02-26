@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="max-image-preview:large">
+<title>Cisco 7945G VoIP Phones and FreePBX &#8211; bvaic.com</title>
+<link rel="alternate" type="application/rss+xml" title="bvaic.com &raquo; Feed" href="/feed/">
+<link rel="alternate" type="application/rss+xml" title="bvaic.com &raquo; Comments Feed" href="/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="bvaic.com &raquo; Cisco 7945G VoIP Phones and FreePBX Comments Feed" href="/2024/10/cisco-7945g-freepbx/feed/">
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🐦‍⬛","🐦​⬛")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style id="wp-block-site-logo-inline-css">.wp-block-site-logo{box-sizing:border-box;line-height:0}.wp-block-site-logo a{display:inline-block;line-height:0}.wp-block-site-logo.is-default-size img{height:auto;width:120px}.wp-block-site-logo img{height:auto;max-width:100%}.wp-block-site-logo a,.wp-block-site-logo img{border-radius:inherit}.wp-block-site-logo.aligncenter{margin-left:auto;margin-right:auto;text-align:center}:root :where(.wp-block-site-logo.is-style-rounded){border-radius:9999px}</style>
+<style id="wp-block-site-title-inline-css">:root :where(.wp-block-site-title a){color:inherit}</style>
+<style id="wp-block-group-inline-css">.wp-block-group{box-sizing:border-box}:where(.wp-block-group.wp-block-group-is-layout-constrained){position:relative}</style>
+<style id="wp-block-navigation-link-inline-css">.wp-block-navigation .wp-block-navigation-item__label{overflow-wrap:break-word}.wp-block-navigation .wp-block-navigation-item__description{display:none}.link-ui-tools{border-top:1px solid #f0f0f0;padding:8px}.link-ui-block-inserter{padding-top:8px}.link-ui-block-inserter__back{margin-left:8px;text-transform:uppercase}
+
+				.is-style-arrow-link .wp-block-navigation-item__label:after {
+					content: "\2197";
+					padding-inline-start: 0.25rem;
+					vertical-align: middle;
+					text-decoration: none;
+					display: inline-block;
+				}</style>
+<link rel="stylesheet" id="wp-block-navigation-css" href="/wp-includes/blocks/navigation/style.min.css?ver=6.6.2" media="all">
+<style id="wp-block-post-featured-image-inline-css">.wp-block-post-featured-image{margin-left:0;margin-right:0}.wp-block-post-featured-image a{display:block;height:100%}.wp-block-post-featured-image :where(img){box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom;width:100%}.wp-block-post-featured-image.alignfull img,.wp-block-post-featured-image.alignwide img{width:100%}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim{background-color:#000;inset:0;position:absolute}.wp-block-post-featured-image{position:relative}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-gradient{background-color:initial}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-0{opacity:0}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-10{opacity:.1}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-20{opacity:.2}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-30{opacity:.3}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-40{opacity:.4}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-50{opacity:.5}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-60{opacity:.6}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-70{opacity:.7}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-80{opacity:.8}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-90{opacity:.9}.wp-block-post-featured-image .wp-block-post-featured-image__overlay.has-background-dim-100{opacity:1}.wp-block-post-featured-image:where(.alignleft,.alignright){width:100%}</style>
+<style id="wp-block-post-title-inline-css">.wp-block-post-title{box-sizing:border-box;word-break:break-word}.wp-block-post-title a{display:inline-block}</style>
+<style id="wp-block-post-date-inline-css">.wp-block-post-date{box-sizing:border-box}</style>
+<style id="wp-block-paragraph-inline-css">.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}</style>
+<style id="wp-block-post-terms-inline-css">.wp-block-post-terms{box-sizing:border-box}.wp-block-post-terms .wp-block-post-terms__separator{white-space:pre-wrap}
+
+				.is-style-pill a,
+				.is-style-pill span:not([class], [data-rich-text-placeholder]) {
+					display: inline-block;
+					background-color: var(--wp--preset--color--base-2);
+					padding: 0.375rem 0.875rem;
+					border-radius: var(--wp--preset--spacing--20);
+				}
+
+				.is-style-pill a:hover {
+					background-color: var(--wp--preset--color--contrast-3);
+				}</style>
+<style id="wp-block-heading-inline-css">h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-background,h6.has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+
+				.is-style-asterisk:before {
+					content: '';
+					width: 1.5rem;
+					height: 3rem;
+					background: var(--wp--preset--color--contrast-2, currentColor);
+					clip-path: path('M11.93.684v8.039l5.633-5.633 1.216 1.23-5.66 5.66h8.04v1.737H13.2l5.701 5.701-1.23 1.23-5.742-5.742V21h-1.737v-8.094l-5.77 5.77-1.23-1.217 5.743-5.742H.842V9.98h8.162l-5.701-5.7 1.23-1.231 5.66 5.66V.684h1.737Z');
+					display: block;
+				}
+
+				/* Hide the asterisk if the heading has no content, to avoid using empty headings to display the asterisk only, which is an A11Y issue */
+				.is-style-asterisk:empty:before {
+					content: none;
+				}
+
+				.is-style-asterisk:-moz-only-whitespace:before {
+					content: none;
+				}
+
+				.is-style-asterisk.has-text-align-center:before {
+					margin: 0 auto;
+				}
+
+				.is-style-asterisk.has-text-align-right:before {
+					margin-left: auto;
+				}
+
+				.rtl .is-style-asterisk.has-text-align-left:before {
+					margin-right: auto;
+				}</style>
+<style id="wp-block-list-inline-css">ol,ul{box-sizing:border-box}:root :where(ul.has-background,ol.has-background){padding:1.25em 2.375em}
+
+				ul.is-style-checkmark-list {
+					list-style-type: "\2713";
+				}
+
+				ul.is-style-checkmark-list li {
+					padding-inline-start: 1ch;
+				}</style>
+<style id="wp-block-separator-inline-css">@charset "UTF-8";.wp-block-separator{border:none;border-top:2px solid}:root :where(.wp-block-separator.is-style-dots){height:auto;line-height:1;text-align:center}:root :where(.wp-block-separator.is-style-dots):before{color:currentColor;content:"···";font-family:serif;font-size:1.5em;letter-spacing:2em;padding-left:2em}.wp-block-separator.is-style-dots{background:none!important;border:none!important}</style>
+<link rel="stylesheet" id="wp-block-image-css" href="/wp-includes/blocks/image/style.min.css?ver=6.6.2" media="all">
+<link rel="stylesheet" id="wp-block-table-css" href="/wp-includes/blocks/table/style.min.css?ver=6.6.2" media="all">
+<link rel="stylesheet" id="kevinbatdorf-code-block-pro-style-css" href="/wp-content/plugins/code-block-pro/build/style-index.css?ver=1.13.0" media="all">
+<style id="wp-block-code-inline-css">.wp-block-code{box-sizing:border-box}.wp-block-code code{display:block;font-family:inherit;overflow-wrap:break-word;white-space:pre-wrap}</style>
+<style id="wp-block-media-text-inline-css">.wp-block-media-text{box-sizing:border-box;
+  /*!rtl:begin:ignore*/direction:ltr;
+  /*!rtl:end:ignore*/display:grid;grid-template-columns:50% 1fr;grid-template-rows:auto}.wp-block-media-text.has-media-on-the-right{grid-template-columns:1fr 50%}.wp-block-media-text.is-vertically-aligned-top>.wp-block-media-text__content,.wp-block-media-text.is-vertically-aligned-top>.wp-block-media-text__media{align-self:start}.wp-block-media-text.is-vertically-aligned-center>.wp-block-media-text__content,.wp-block-media-text.is-vertically-aligned-center>.wp-block-media-text__media,.wp-block-media-text>.wp-block-media-text__content,.wp-block-media-text>.wp-block-media-text__media{align-self:center}.wp-block-media-text.is-vertically-aligned-bottom>.wp-block-media-text__content,.wp-block-media-text.is-vertically-aligned-bottom>.wp-block-media-text__media{align-self:end}.wp-block-media-text>.wp-block-media-text__media{
+  /*!rtl:begin:ignore*/grid-column:1;grid-row:1;
+  /*!rtl:end:ignore*/margin:0}.wp-block-media-text>.wp-block-media-text__content{direction:ltr;
+  /*!rtl:begin:ignore*/grid-column:2;grid-row:1;
+  /*!rtl:end:ignore*/padding:0 8%;word-break:break-word}.wp-block-media-text.has-media-on-the-right>.wp-block-media-text__media{
+  /*!rtl:begin:ignore*/grid-column:2;grid-row:1
+  /*!rtl:end:ignore*/}.wp-block-media-text.has-media-on-the-right>.wp-block-media-text__content{
+  /*!rtl:begin:ignore*/grid-column:1;grid-row:1
+  /*!rtl:end:ignore*/}.wp-block-media-text__media img,.wp-block-media-text__media video{height:auto;max-width:unset;vertical-align:middle;width:100%}.wp-block-media-text.is-image-fill>.wp-block-media-text__media{background-size:cover;height:100%;min-height:250px}.wp-block-media-text.is-image-fill>.wp-block-media-text__media>a{display:block;height:100%}.wp-block-media-text.is-image-fill>.wp-block-media-text__media img{height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;clip:rect(0,0,0,0);border:0}@media (max-width:600px){.wp-block-media-text.is-stacked-on-mobile{grid-template-columns:100%!important}.wp-block-media-text.is-stacked-on-mobile>.wp-block-media-text__media{grid-column:1;grid-row:1}.wp-block-media-text.is-stacked-on-mobile>.wp-block-media-text__content{grid-column:1;grid-row:2}}</style>
+<style id="wp-block-spacer-inline-css">.wp-block-spacer{clear:both}</style>
+<style id="wp-block-comment-template-inline-css">.wp-block-comment-template{box-sizing:border-box;list-style:none;margin-bottom:0;max-width:100%;padding:0}.wp-block-comment-template li{clear:both}.wp-block-comment-template ol{list-style:none;margin-bottom:0;max-width:100%;padding-left:2rem}.wp-block-comment-template.alignleft{float:left}.wp-block-comment-template.aligncenter{margin-left:auto;margin-right:auto;width:-moz-fit-content;width:fit-content}.wp-block-comment-template.alignright{float:right}</style>
+<style id="wp-block-comments-pagination-inline-css">.wp-block-comments-pagination>.wp-block-comments-pagination-next,.wp-block-comments-pagination>.wp-block-comments-pagination-numbers,.wp-block-comments-pagination>.wp-block-comments-pagination-previous{margin-bottom:.5em;margin-right:.5em}.wp-block-comments-pagination>.wp-block-comments-pagination-next:last-child,.wp-block-comments-pagination>.wp-block-comments-pagination-numbers:last-child,.wp-block-comments-pagination>.wp-block-comments-pagination-previous:last-child{margin-right:0}.wp-block-comments-pagination .wp-block-comments-pagination-previous-arrow{display:inline-block;margin-right:1ch}.wp-block-comments-pagination .wp-block-comments-pagination-previous-arrow:not(.is-arrow-chevron){transform:scaleX(1)}.wp-block-comments-pagination .wp-block-comments-pagination-next-arrow{display:inline-block;margin-left:1ch}.wp-block-comments-pagination .wp-block-comments-pagination-next-arrow:not(.is-arrow-chevron){transform:scaleX(1)}.wp-block-comments-pagination.aligncenter{justify-content:center}</style>
+<style id="wp-block-post-comments-form-inline-css">:where(.wp-block-post-comments-form) input:not([type=submit]),:where(.wp-block-post-comments-form) textarea{border:1px solid #949494;font-family:inherit;font-size:1em}:where(.wp-block-post-comments-form) input:where(:not([type=submit]):not([type=checkbox])),:where(.wp-block-post-comments-form) textarea{padding:calc(.667em + 2px)}.wp-block-post-comments-form{box-sizing:border-box}.wp-block-post-comments-form[style*=font-weight] :where(.comment-reply-title){font-weight:inherit}.wp-block-post-comments-form[style*=font-family] :where(.comment-reply-title){font-family:inherit}.wp-block-post-comments-form[class*=-font-size] :where(.comment-reply-title),.wp-block-post-comments-form[style*=font-size] :where(.comment-reply-title){font-size:inherit}.wp-block-post-comments-form[style*=line-height] :where(.comment-reply-title){line-height:inherit}.wp-block-post-comments-form[style*=font-style] :where(.comment-reply-title){font-style:inherit}.wp-block-post-comments-form[style*=letter-spacing] :where(.comment-reply-title){letter-spacing:inherit}.wp-block-post-comments-form input[type=submit]{box-shadow:none;cursor:pointer;display:inline-block;overflow-wrap:break-word;text-align:center}.wp-block-post-comments-form .comment-form input:not([type=submit]):not([type=checkbox]):not([type=hidden]),.wp-block-post-comments-form .comment-form textarea{box-sizing:border-box;display:block;width:100%}.wp-block-post-comments-form .comment-form-author label,.wp-block-post-comments-form .comment-form-email label,.wp-block-post-comments-form .comment-form-url label{display:block;margin-bottom:.25em}.wp-block-post-comments-form .comment-form-cookies-consent{display:flex;gap:.25em}.wp-block-post-comments-form .comment-form-cookies-consent #wp-comment-cookies-consent{margin-top:.35em}.wp-block-post-comments-form .comment-reply-title{margin-bottom:0}.wp-block-post-comments-form .comment-reply-title :where(small){font-size:var(--wp--preset--font-size--medium,smaller);margin-left:.5em}</style>
+<style id="wp-block-buttons-inline-css">.wp-block-buttons.is-vertical{flex-direction:column}.wp-block-buttons.is-vertical>.wp-block-button:last-child{margin-bottom:0}.wp-block-buttons>.wp-block-button{display:inline-block;margin:0}.wp-block-buttons.is-content-justification-left{justify-content:flex-start}.wp-block-buttons.is-content-justification-left.is-vertical{align-items:flex-start}.wp-block-buttons.is-content-justification-center{justify-content:center}.wp-block-buttons.is-content-justification-center.is-vertical{align-items:center}.wp-block-buttons.is-content-justification-right{justify-content:flex-end}.wp-block-buttons.is-content-justification-right.is-vertical{align-items:flex-end}.wp-block-buttons.is-content-justification-space-between{justify-content:space-between}.wp-block-buttons.aligncenter{text-align:center}.wp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .wp-block-button.aligncenter{margin-left:auto;margin-right:auto;width:100%}.wp-block-buttons[style*=text-decoration] .wp-block-button,.wp-block-buttons[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-button.aligncenter{text-align:center}</style>
+<style id="wp-block-button-inline-css">.wp-block-button__link{box-sizing:border-box;cursor:pointer;display:inline-block;text-align:center;word-break:break-word}.wp-block-button__link.aligncenter{text-align:center}.wp-block-button__link.alignright{text-align:right}:where(.wp-block-button__link){border-radius:9999px;box-shadow:none;padding:calc(.667em + 2px) calc(1.333em + 2px);text-decoration:none}.wp-block-button[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons>.wp-block-button.has-custom-width{max-width:none}.wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link{width:100%}.wp-block-buttons>.wp-block-button.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons>.wp-block-button.wp-block-button__width-25{width:calc(25% - var(--wp--style--block-gap, .5em)*.75)}.wp-block-buttons>.wp-block-button.wp-block-button__width-50{width:calc(50% - var(--wp--style--block-gap, .5em)*.5)}.wp-block-buttons>.wp-block-button.wp-block-button__width-75{width:calc(75% - var(--wp--style--block-gap, .5em)*.25)}.wp-block-buttons>.wp-block-button.wp-block-button__width-100{flex-basis:100%;width:100%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-25{width:25%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-50{width:50%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-75{width:75%}.wp-block-button.is-style-squared,.wp-block-button__link.wp-block-button.is-style-squared{border-radius:0}.wp-block-button.no-border-radius,.wp-block-button__link.no-border-radius{border-radius:0!important}:root :where(.wp-block-button .wp-block-button__link.is-style-outline),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link){border:2px solid;padding:.667em 1.333em}:root :where(.wp-block-button .wp-block-button__link.is-style-outline:not(.has-text-color)),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-text-color)){color:currentColor}:root :where(.wp-block-button .wp-block-button__link.is-style-outline:not(.has-background)),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background)){background-color:initial;background-image:none}</style>
+<style id="wp-block-comments-inline-css">.wp-block-post-comments{box-sizing:border-box}.wp-block-post-comments .alignleft{float:left}.wp-block-post-comments .alignright{float:right}.wp-block-post-comments .navigation:after{clear:both;content:"";display:table}.wp-block-post-comments .commentlist{clear:both;list-style:none;margin:0;padding:0}.wp-block-post-comments .commentlist .comment{min-height:2.25em;padding-left:3.25em}.wp-block-post-comments .commentlist .comment p{font-size:1em;line-height:1.8;margin:1em 0}.wp-block-post-comments .commentlist .children{list-style:none;margin:0;padding:0}.wp-block-post-comments .comment-author{line-height:1.5}.wp-block-post-comments .comment-author .avatar{border-radius:1.5em;display:block;float:left;height:2.5em;margin-right:.75em;margin-top:.5em;width:2.5em}.wp-block-post-comments .comment-author cite{font-style:normal}.wp-block-post-comments .comment-meta{font-size:.875em;line-height:1.5}.wp-block-post-comments .comment-meta b{font-weight:400}.wp-block-post-comments .comment-meta .comment-awaiting-moderation{display:block;margin-bottom:1em;margin-top:1em}.wp-block-post-comments .comment-body .commentmetadata{font-size:.875em}.wp-block-post-comments .comment-form-author label,.wp-block-post-comments .comment-form-comment label,.wp-block-post-comments .comment-form-email label,.wp-block-post-comments .comment-form-url label{display:block;margin-bottom:.25em}.wp-block-post-comments .comment-form input:not([type=submit]):not([type=checkbox]),.wp-block-post-comments .comment-form textarea{box-sizing:border-box;display:block;width:100%}.wp-block-post-comments .comment-form-cookies-consent{display:flex;gap:.25em}.wp-block-post-comments .comment-form-cookies-consent #wp-comment-cookies-consent{margin-top:.35em}.wp-block-post-comments .comment-reply-title{margin-bottom:0}.wp-block-post-comments .comment-reply-title :where(small){font-size:var(--wp--preset--font-size--medium,smaller);margin-left:.5em}.wp-block-post-comments .reply{font-size:.875em;margin-bottom:1.4em}.wp-block-post-comments input:not([type=submit]),.wp-block-post-comments textarea{border:1px solid #949494;font-family:inherit;font-size:1em}.wp-block-post-comments input:not([type=submit]):not([type=checkbox]),.wp-block-post-comments textarea{padding:calc(.667em + 2px)}:where(.wp-block-post-comments input[type=submit]){border:none}</style>
+<style id="wp-block-post-navigation-link-inline-css">.wp-block-post-navigation-link .wp-block-post-navigation-link__arrow-previous{display:inline-block;margin-right:1ch}.wp-block-post-navigation-link .wp-block-post-navigation-link__arrow-previous:not(.is-arrow-chevron){transform:scaleX(1)}.wp-block-post-navigation-link .wp-block-post-navigation-link__arrow-next{display:inline-block;margin-left:1ch}.wp-block-post-navigation-link .wp-block-post-navigation-link__arrow-next:not(.is-arrow-chevron){transform:scaleX(1)}.wp-block-post-navigation-link.has-text-align-left[style*="writing-mode: vertical-lr"],.wp-block-post-navigation-link.has-text-align-right[style*="writing-mode: vertical-rl"]{rotate:180deg}</style>
+<style id="wp-block-columns-inline-css">.wp-block-columns{align-items:normal!important;box-sizing:border-box;display:flex;flex-wrap:wrap!important}@media (min-width:782px){.wp-block-columns{flex-wrap:nowrap!important}}.wp-block-columns.are-vertically-aligned-top{align-items:flex-start}.wp-block-columns.are-vertically-aligned-center{align-items:center}.wp-block-columns.are-vertically-aligned-bottom{align-items:flex-end}@media (max-width:781px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:100%!important}}@media (min-width:782px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column[style*=flex-basis]{flex-grow:0}}.wp-block-columns.is-not-stacked-on-mobile{flex-wrap:nowrap!important}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column[style*=flex-basis]{flex-grow:0}:where(.wp-block-columns){margin-bottom:1.75em}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}.wp-block-column{flex-grow:1;min-width:0;overflow-wrap:break-word;word-break:break-word}.wp-block-column.is-vertically-aligned-top{align-self:flex-start}.wp-block-column.is-vertically-aligned-center{align-self:center}.wp-block-column.is-vertically-aligned-bottom{align-self:flex-end}.wp-block-column.is-vertically-aligned-stretch{align-self:stretch}.wp-block-column.is-vertically-aligned-bottom,.wp-block-column.is-vertically-aligned-center,.wp-block-column.is-vertically-aligned-top{width:100%}</style>
+<style id="wp-emoji-styles-inline-css">img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}</style>
+<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/common.min.css?ver=6.6.2" media="all">
+<style id="global-styles-inline-css">:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--base: #f9f9f9;--wp--preset--color--base-2: #ffffff;--wp--preset--color--contrast: #111111;--wp--preset--color--contrast-2: #636363;--wp--preset--color--contrast-3: #A4A4A4;--wp--preset--color--accent: #cfcabe;--wp--preset--color--accent-2: #c2a990;--wp--preset--color--accent-3: #d8613c;--wp--preset--color--accent-4: #b1c5a4;--wp--preset--color--accent-5: #b5bdbc;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--gradient-1: linear-gradient(to bottom, #cfcabe 0%, #F9F9F9 100%);--wp--preset--gradient--gradient-2: linear-gradient(to bottom, #C2A990 0%, #F9F9F9 100%);--wp--preset--gradient--gradient-3: linear-gradient(to bottom, #D8613C 0%, #F9F9F9 100%);--wp--preset--gradient--gradient-4: linear-gradient(to bottom, #B1C5A4 0%, #F9F9F9 100%);--wp--preset--gradient--gradient-5: linear-gradient(to bottom, #B5BDBC 0%, #F9F9F9 100%);--wp--preset--gradient--gradient-6: linear-gradient(to bottom, #A4A4A4 0%, #F9F9F9 100%);--wp--preset--gradient--gradient-7: linear-gradient(to bottom, #cfcabe 50%, #F9F9F9 50%);--wp--preset--gradient--gradient-8: linear-gradient(to bottom, #C2A990 50%, #F9F9F9 50%);--wp--preset--gradient--gradient-9: linear-gradient(to bottom, #D8613C 50%, #F9F9F9 50%);--wp--preset--gradient--gradient-10: linear-gradient(to bottom, #B1C5A4 50%, #F9F9F9 50%);--wp--preset--gradient--gradient-11: linear-gradient(to bottom, #B5BDBC 50%, #F9F9F9 50%);--wp--preset--gradient--gradient-12: linear-gradient(to bottom, #A4A4A4 50%, #F9F9F9 50%);--wp--preset--font-size--small: 0.9rem;--wp--preset--font-size--medium: 1.05rem;--wp--preset--font-size--large: clamp(1.39rem, 1.39rem + ((1vw - 0.2rem) * 0.767), 1.85rem);--wp--preset--font-size--x-large: clamp(1.85rem, 1.85rem + ((1vw - 0.2rem) * 1.083), 2.5rem);--wp--preset--font-size--xx-large: clamp(2.5rem, 2.5rem + ((1vw - 0.2rem) * 1.283), 3.27rem);--wp--preset--font-family--body: "Inter", sans-serif;--wp--preset--font-family--heading: Cardo;--wp--preset--font-family--system-sans-serif: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;--wp--preset--font-family--system-serif: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;--wp--preset--spacing--20: min(1.5rem, 2vw);--wp--preset--spacing--30: min(2.5rem, 3vw);--wp--preset--spacing--40: min(4rem, 5vw);--wp--preset--spacing--50: min(6.5rem, 8vw);--wp--preset--spacing--60: min(10.5rem, 13vw);--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--spacing--10: 1rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root { --wp--style--global--content-size: 620px;--wp--style--global--wide-size: 1280px; }:where(body) { margin: 0; }.wp-site-blocks { padding-top: var(--wp--style--root--padding-top); padding-bottom: var(--wp--style--root--padding-bottom); }.has-global-padding { padding-right: var(--wp--style--root--padding-right); padding-left: var(--wp--style--root--padding-left); }.has-global-padding > .alignfull { margin-right: calc(var(--wp--style--root--padding-right) * -1); margin-left: calc(var(--wp--style--root--padding-left) * -1); }.has-global-padding :where(:not(.alignfull.is-layout-flow) > .has-global-padding:not(.wp-block-block, .alignfull)) { padding-right: 0; padding-left: 0; }.has-global-padding :where(:not(.alignfull.is-layout-flow) > .has-global-padding:not(.wp-block-block, .alignfull)) > .alignfull { margin-left: 0; margin-right: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 1.2rem; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 1.2rem; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 1.2rem;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 1.2rem;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 1.2rem;}:root :where(.is-layout-grid){gap: 1.2rem;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{background-color: var(--wp--preset--color--base);color: var(--wp--preset--color--contrast);font-family: var(--wp--preset--font-family--body);font-size: var(--wp--preset--font-size--medium);font-style: normal;font-weight: 400;line-height: 1.55;--wp--style--root--padding-top: 0px;--wp--style--root--padding-right: var(--wp--preset--spacing--50);--wp--style--root--padding-bottom: 0px;--wp--style--root--padding-left: var(--wp--preset--spacing--50);}a:where(:not(.wp-element-button)){color: var(--wp--preset--color--contrast);text-decoration: underline;}:root :where(a:where(:not(.wp-element-button)):hover){text-decoration: none;}h1, h2, h3, h4, h5, h6{color: var(--wp--preset--color--contrast);font-family: var(--wp--preset--font-family--heading);font-weight: 400;line-height: 1.2;}h1{font-size: var(--wp--preset--font-size--xx-large);font-style: normal;font-weight: 700;line-height: 1.15;}h2{font-size: var(--wp--preset--font-size--x-large);font-style: normal;font-weight: 600;}h3{font-size: var(--wp--preset--font-size--large);}h4{font-size: clamp(1.1rem, 1.1rem + ((1vw - 0.2rem) * 0.767), 1.5rem);}h5{font-size: var(--wp--preset--font-size--medium);}h6{font-size: var(--wp--preset--font-size--small);}:root :where(.wp-element-button, .wp-block-button__link){background-color: var(--wp--preset--color--contrast);border-radius: .33rem;border-color: var(--wp--preset--color--contrast);border-width: 0;color: var(--wp--preset--color--base);font-family: inherit;font-size: var(--wp--preset--font-size--small);font-style: normal;font-weight: 500;line-height: inherit;padding-top: 0.6rem;padding-right: 1rem;padding-bottom: 0.6rem;padding-left: 1rem;text-decoration: none;}:root :where(.wp-element-button:hover, .wp-block-button__link:hover){background-color: var(--wp--preset--color--contrast-2);border-color: var(--wp--preset--color--contrast-2);color: var(--wp--preset--color--base);}:root :where(.wp-element-button:focus, .wp-block-button__link:focus){background-color: var(--wp--preset--color--contrast-2);border-color: var(--wp--preset--color--contrast-2);color: var(--wp--preset--color--base);outline-color: var(--wp--preset--color--contrast);outline-offset: 2px;}:root :where(.wp-element-button:active, .wp-block-button__link:active){background-color: var(--wp--preset--color--contrast);color: var(--wp--preset--color--base);}:root :where(.wp-element-caption, .wp-block-audio figcaption, .wp-block-embed figcaption, .wp-block-gallery figcaption, .wp-block-image figcaption, .wp-block-table figcaption, .wp-block-video figcaption){color: var(--wp--preset--color--contrast-2);font-family: var(--wp--preset--font-family--body);font-size: 0.8rem;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-base-color{color: var(--wp--preset--color--base) !important;}.has-base-2-color{color: var(--wp--preset--color--base-2) !important;}.has-contrast-color{color: var(--wp--preset--color--contrast) !important;}.has-contrast-2-color{color: var(--wp--preset--color--contrast-2) !important;}.has-contrast-3-color{color: var(--wp--preset--color--contrast-3) !important;}.has-accent-color{color: var(--wp--preset--color--accent) !important;}.has-accent-2-color{color: var(--wp--preset--color--accent-2) !important;}.has-accent-3-color{color: var(--wp--preset--color--accent-3) !important;}.has-accent-4-color{color: var(--wp--preset--color--accent-4) !important;}.has-accent-5-color{color: var(--wp--preset--color--accent-5) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-base-background-color{background-color: var(--wp--preset--color--base) !important;}.has-base-2-background-color{background-color: var(--wp--preset--color--base-2) !important;}.has-contrast-background-color{background-color: var(--wp--preset--color--contrast) !important;}.has-contrast-2-background-color{background-color: var(--wp--preset--color--contrast-2) !important;}.has-contrast-3-background-color{background-color: var(--wp--preset--color--contrast-3) !important;}.has-accent-background-color{background-color: var(--wp--preset--color--accent) !important;}.has-accent-2-background-color{background-color: var(--wp--preset--color--accent-2) !important;}.has-accent-3-background-color{background-color: var(--wp--preset--color--accent-3) !important;}.has-accent-4-background-color{background-color: var(--wp--preset--color--accent-4) !important;}.has-accent-5-background-color{background-color: var(--wp--preset--color--accent-5) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-base-border-color{border-color: var(--wp--preset--color--base) !important;}.has-base-2-border-color{border-color: var(--wp--preset--color--base-2) !important;}.has-contrast-border-color{border-color: var(--wp--preset--color--contrast) !important;}.has-contrast-2-border-color{border-color: var(--wp--preset--color--contrast-2) !important;}.has-contrast-3-border-color{border-color: var(--wp--preset--color--contrast-3) !important;}.has-accent-border-color{border-color: var(--wp--preset--color--accent) !important;}.has-accent-2-border-color{border-color: var(--wp--preset--color--accent-2) !important;}.has-accent-3-border-color{border-color: var(--wp--preset--color--accent-3) !important;}.has-accent-4-border-color{border-color: var(--wp--preset--color--accent-4) !important;}.has-accent-5-border-color{border-color: var(--wp--preset--color--accent-5) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-gradient-1-gradient-background{background: var(--wp--preset--gradient--gradient-1) !important;}.has-gradient-2-gradient-background{background: var(--wp--preset--gradient--gradient-2) !important;}.has-gradient-3-gradient-background{background: var(--wp--preset--gradient--gradient-3) !important;}.has-gradient-4-gradient-background{background: var(--wp--preset--gradient--gradient-4) !important;}.has-gradient-5-gradient-background{background: var(--wp--preset--gradient--gradient-5) !important;}.has-gradient-6-gradient-background{background: var(--wp--preset--gradient--gradient-6) !important;}.has-gradient-7-gradient-background{background: var(--wp--preset--gradient--gradient-7) !important;}.has-gradient-8-gradient-background{background: var(--wp--preset--gradient--gradient-8) !important;}.has-gradient-9-gradient-background{background: var(--wp--preset--gradient--gradient-9) !important;}.has-gradient-10-gradient-background{background: var(--wp--preset--gradient--gradient-10) !important;}.has-gradient-11-gradient-background{background: var(--wp--preset--gradient--gradient-11) !important;}.has-gradient-12-gradient-background{background: var(--wp--preset--gradient--gradient-12) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-xx-large-font-size{font-size: var(--wp--preset--font-size--xx-large) !important;}.has-body-font-family{font-family: var(--wp--preset--font-family--body) !important;}.has-heading-font-family{font-family: var(--wp--preset--font-family--heading) !important;}.has-system-sans-serif-font-family{font-family: var(--wp--preset--font-family--system-sans-serif) !important;}.has-system-serif-font-family{font-family: var(--wp--preset--font-family--system-serif) !important;}
+:root :where(.wp-block-buttons-is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.wp-block-buttons-is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.wp-block-buttons-is-layout-flow) > *{margin-block-start: 0.7rem;margin-block-end: 0;}:root :where(.wp-block-buttons-is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.wp-block-buttons-is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.wp-block-buttons-is-layout-constrained) > *{margin-block-start: 0.7rem;margin-block-end: 0;}:root :where(.wp-block-buttons-is-layout-flex){gap: 0.7rem;}:root :where(.wp-block-buttons-is-layout-grid){gap: 0.7rem;}
+:root :where(.wp-block-code){background-color: var(--wp--preset--color--base-2);border-radius: var(--wp--preset--spacing--20);border-color: var(--wp--preset--color--contrast);color: var(--wp--preset--color--contrast-2);font-size: var(--wp--preset--font-size--medium);font-style: normal;font-weight: 400;line-height: 1.6;padding-top: calc(var(--wp--preset--spacing--30) + 0.75rem);padding-right: calc(var(--wp--preset--spacing--30) + 0.75rem);padding-bottom: calc(var(--wp--preset--spacing--30) + 0.75rem);padding-left: calc(var(--wp--preset--spacing--30) + 0.75rem);}
+:root :where(.wp-block-post-comments-form textarea, .wp-block-post-comments-form input){border-radius:.33rem}
+:root :where(.wp-block-comments-pagination){font-size: var(--wp--preset--font-size--small);}
+:root :where(.wp-block-comments-pagination-next){font-size: var(--wp--preset--font-size--small);}
+:root :where(.wp-block-comments-pagination-previous){font-size: var(--wp--preset--font-size--small);}
+:root :where(.wp-block-list){padding-left: var(--wp--preset--spacing--10);}
+:root :where(.wp-block-navigation){font-weight: 500;}
+:root :where(.wp-block-navigation a:where(:not(.wp-element-button))){text-decoration: none;}
+:root :where(.wp-block-navigation a:where(:not(.wp-element-button)):hover){text-decoration: underline;}
+:root :where(.wp-block-post-author-name){font-size: var(--wp--preset--font-size--small);}
+:root :where(.wp-block-post-author-name a:where(:not(.wp-element-button))){text-decoration: none;}
+:root :where(.wp-block-post-author-name a:where(:not(.wp-element-button)):hover){text-decoration: underline;}
+:root :where(.wp-block-post-date){color: var(--wp--preset--color--contrast-2);font-size: var(--wp--preset--font-size--small);}
+:root :where(.wp-block-post-date a:where(:not(.wp-element-button))){color: var(--wp--preset--color--contrast-2);text-decoration: none;}
+:root :where(.wp-block-post-date a:where(:not(.wp-element-button)):hover){text-decoration: underline;}
+:root :where(.wp-block-post-featured-image img, .wp-block-post-featured-image .block-editor-media-placeholder, .wp-block-post-featured-image .wp-block-post-featured-image__overlay){border-radius: var(--wp--preset--spacing--20);}
+:root :where(.wp-block-post-terms){font-size: var(--wp--preset--font-size--small);}:root :where(.wp-block-post-terms .wp-block-post-terms__prefix){color: var(--wp--preset--color--contrast-2);}
+:root :where(.wp-block-post-terms a:where(:not(.wp-element-button))){text-decoration: none;}
+:root :where(.wp-block-post-terms a:where(:not(.wp-element-button)):hover){text-decoration: underline;}
+:root :where(.wp-block-post-title a:where(:not(.wp-element-button))){text-decoration: none;}
+:root :where(.wp-block-post-title a:where(:not(.wp-element-button)):hover){text-decoration: underline;}
+:root :where(.wp-block-separator){border-color: currentColor;border-width: 0 0 1px 0;border-style: solid;color: var(--wp--preset--color--contrast);}:root :where(.wp-block-separator){}:root :where(.wp-block-separator:not(.is-style-wide):not(.is-style-dots):not(.alignwide):not(.alignfull)){width: var(--wp--preset--spacing--60)}
+:root :where(.wp-block-site-tagline){color: var(--wp--preset--color--contrast-2);font-size: var(--wp--preset--font-size--small);}
+:root :where(.wp-block-site-title){font-family: var(--wp--preset--font-family--body);font-size: clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.542), 1.2rem);font-style: normal;font-weight: 600;}
+:root :where(.wp-block-site-title a:where(:not(.wp-element-button))){text-decoration: none;}
+:root :where(.wp-block-site-title a:where(:not(.wp-element-button)):hover){text-decoration: none;}
+:root :where(.wp-block-list > li){margin-right: var(--wp--preset--spacing--20);margin-left: var(--wp--preset--spacing--20);}
+:where(.wp-site-blocks *:focus){outline-width:2px;outline-style:solid}
+
+#turnkey-credit {
+  display: none;
+}:root :where(.wp-block-calendar.wp-block-calendar table:where(:not(.has-text-color)) th){background-color:var(--wp--preset--color--contrast-2);color:var(--wp--preset--color--base);border-color:var(--wp--preset--color--contrast-2)}:root :where(.wp-block-calendar table:where(:not(.has-text-color)) td){border-color:var(--wp--preset--color--contrast-2)}:root :where(.wp-block-categories){list-style-type:none;}:root :where(.wp-block-categories li){margin-bottom: 0.5rem;}:root :where(.wp-block-post-comments-form textarea, .wp-block-post-comments-form input){border-radius:.33rem}:root :where(.wp-block-loginout input){border-radius:.33rem;padding:calc(0.667em + 2px);border:1px solid #949494;}:root :where(.wp-block-post-terms .wp-block-post-terms__prefix){color: var(--wp--preset--color--contrast-2);}:root :where(.wp-block-query-title span){font-style: italic;}:root :where(.wp-block-quote :where(p)){margin-block-start:0;margin-block-end:calc(var(--wp--preset--spacing--10) + 0.5rem);}:root :where(.wp-block-quote :where(:last-child)){margin-block-end:0;}:root :where(.wp-block-quote.has-text-align-right.is-style-plain, .rtl .is-style-plain.wp-block-quote:not(.has-text-align-center):not(.has-text-align-left)){border-width: 0 2px 0 0;padding-left:calc(var(--wp--preset--spacing--20) + 0.5rem);padding-right:calc(var(--wp--preset--spacing--20) + 0.5rem);}:root :where(.wp-block-quote.has-text-align-left.is-style-plain, body:not(.rtl) .is-style-plain.wp-block-quote:not(.has-text-align-center):not(.has-text-align-right)){border-width: 0 0 0 2px;padding-left:calc(var(--wp--preset--spacing--20) + 0.5rem);padding-right:calc(var(--wp--preset--spacing--20) + 0.5rem)}:root :where(.wp-block-search .wp-block-search__input){border-radius:.33rem}:root :where(.wp-block-separator){}:root :where(.wp-block-separator:not(.is-style-wide):not(.is-style-dots):not(.alignwide):not(.alignfull)){width: var(--wp--preset--spacing--60)}</style>
+<style id="core-block-supports-inline-css">.wp-container-core-group-is-layout-1 > *{margin-block-start:0;margin-block-end:0;}.wp-container-core-group-is-layout-1 > * + *{margin-block-start:0px;margin-block-end:0;}.wp-container-core-group-is-layout-2{gap:var(--wp--preset--spacing--20);}.wp-container-core-navigation-is-layout-1{gap:var(--wp--preset--spacing--20);justify-content:flex-end;}.wp-container-core-group-is-layout-3{justify-content:flex-start;}.wp-container-core-group-is-layout-4{justify-content:space-between;}.wp-container-core-group-is-layout-6{gap:0.3em;justify-content:flex-start;}.wp-container-core-group-is-layout-8{gap:var(--wp--preset--spacing--10);flex-direction:column;align-items:stretch;}.wp-elements-408dface76a9e8d820ac600f6ebbce53 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--contrast);}.wp-container-core-group-is-layout-24{flex-wrap:nowrap;justify-content:space-between;}.wp-container-core-group-is-layout-28{flex-direction:column;align-items:flex-start;}.wp-container-core-columns-is-layout-1{flex-wrap:nowrap;}.wp-elements-fb1dc8a358d6c5ee50b4614eb09d35bb a:where(:not(.wp-element-button)){color:var(--wp--preset--color--contrast);}</style>
+<style id="wp-block-template-skip-link-inline-css">.skip-link.screen-reader-text {
+			border: 0;
+			clip: rect(1px,1px,1px,1px);
+			clip-path: inset(50%);
+			height: 1px;
+			margin: -1px;
+			overflow: hidden;
+			padding: 0;
+			position: absolute !important;
+			width: 1px;
+			word-wrap: normal !important;
+		}
+
+		.skip-link.screen-reader-text:focus {
+			background-color: #eee;
+			clip: auto !important;
+			clip-path: none;
+			color: #444;
+			display: block;
+			font-size: 1em;
+			height: auto;
+			left: 5px;
+			line-height: normal;
+			padding: 15px 23px 14px;
+			text-decoration: none;
+			top: 5px;
+			width: auto;
+			z-index: 100000;
+		}</style>
+<link rel="stylesheet" id="ez-toc-css" href="/wp-content/plugins/easy-table-of-contents/assets/css/screen.min.css?ver=2.0.72" media="all">
+<style id="ez-toc-inline-css">div#ez-toc-container .ez-toc-title {font-size: 120%;}div#ez-toc-container .ez-toc-title {font-weight: 500;}div#ez-toc-container ul li {font-size: 95%;}div#ez-toc-container ul li {font-weight: 500;}div#ez-toc-container nav ul ul li {font-size: 90%;}div#ez-toc-container {width: 100%;}
+.ez-toc-container-direction {direction: ltr;}.ez-toc-counter ul{counter-reset: item ;}.ez-toc-counter nav ul li a::before {content: counters(item, '.', decimal) '. ';display: inline-block;counter-increment: item;flex-grow: 0;flex-shrink: 0;margin-right: .2em; float: left; }.ez-toc-widget-direction {direction: ltr;}.ez-toc-widget-container ul{counter-reset: item ;}.ez-toc-widget-container nav ul li a::before {content: counters(item, '.', decimal) '. ';display: inline-block;counter-increment: item;flex-grow: 0;flex-shrink: 0;margin-right: .2em; float: left; }</style>
+<script src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="/wp-json/">
+<link rel="alternate" title="JSON" type="application/json" href="/wp-json/wp/v2/posts/1">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.6.2">
+<link rel="canonical" href="/2024/10/cisco-7945g-freepbx/">
+<link rel="shortlink" href="/?p=1">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F2024%2F10%2Fcisco-7945g-freepbx%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2F2024%2F10%2Fcisco-7945g-freepbx%2F#038;format=xml">
+<script id="wp-load-polyfill-importmap">
+( HTMLScriptElement.supports && HTMLScriptElement.supports("importmap") ) || document.write( '<script src="/wp-includes/js/dist/vendor/wp-polyfill-importmap.min.js?ver=1.8.2"><\/scr' + 'ipt>' );
+</script>
+<script type="importmap" id="wp-importmap">{"imports":{"@wordpress\/interactivity":"\/wp-includes\/js\/dist\/interactivity.min.js?ver=6.6.2"}}</script>
+<script type="module" src="/wp-includes/blocks/navigation/view.min.js?ver=6.6.2" id="@wordpress/block-library/navigation-js-module"></script>
+<link rel="modulepreload" href="/wp-includes/js/dist/interactivity.min.js?ver=6.6.2" id="@wordpress/interactivity-js-modulepreload">
+<style id="wp-fonts-local">@font-face{font-family:Inter;font-style:normal;font-weight:300 900;font-display:fallback;src:url('/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:Cardo;font-style:normal;font-weight:400;font-display:fallback;src:url('/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2') format('woff2');}
+@font-face{font-family:Cardo;font-style:italic;font-weight:400;font-display:fallback;src:url('/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2') format('woff2');}
+@font-face{font-family:Cardo;font-style:normal;font-weight:700;font-display:fallback;src:url('/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2') format('woff2');}</style>
+<link rel="icon" href="/wp-content/uploads/2024/10/bvaic-icon-larger-letters-150x150.png" sizes="32x32">
+<link rel="icon" href="/wp-content/uploads/2024/10/bvaic-icon-larger-letters-300x300.png" sizes="192x192">
+<link rel="apple-touch-icon" href="/wp-content/uploads/2024/10/bvaic-icon-larger-letters-300x300.png">
+<meta name="msapplication-TileImage" content="/wp-content/uploads/2024/10/bvaic-icon-larger-letters-300x300.png">
+<style type="text/css">#turnkey-credit { font-family: Tahoma,Sans,Arial,Helvetica,Verdana,sans-serif; font-size: 11px; text-align: center; } #turnkey-credit a { text-decoration: none; } #turnkey-credit a:hover { text-decoration: underline; } body.wp-admin #turnkey-credit, body#image #turnkey-credit, body#media-upload #turnkey-credit { display: none; }</style>
+</head>
+
+<body class="post-template-default single single-post postid-1 single-format-standard wp-custom-logo wp-embed-responsive">
+
+<div class="wp-site-blocks">
+<header class="wp-block-template-part">
+<div class="wp-block-group alignwide has-base-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:20px;padding-bottom:20px">
+	
+	<div class="wp-block-group alignwide is-content-justification-space-between is-layout-flex wp-container-core-group-is-layout-4 wp-block-group-is-layout-flex">
+		
+		<div class="wp-block-group is-layout-flex wp-container-core-group-is-layout-2 wp-block-group-is-layout-flex">
+			<div class="wp-block-site-logo"><a href="/" class="custom-logo-link" rel="home"><img width="60" height="60" src="/wp-content/uploads/2024/10/bvaic-icon.png" class="custom-logo" alt="bvaic.com" decoding="async" srcset="/wp-content/uploads/2024/10/bvaic-icon.png 500w, /wp-content/uploads/2024/10/bvaic-icon-300x300.png 300w, /wp-content/uploads/2024/10/bvaic-icon-150x150.png 150w" sizes="(max-width: 60px) 100vw, 60px"></a></div>
+
+			
+			<div class="wp-block-group is-layout-flow wp-container-core-group-is-layout-1 wp-block-group-is-layout-flow">
+				<p class="wp-block-site-title"><a href="/" target="_self" rel="home">bvaic.com</a></p>
+			</div>
+			
+		</div>
+		
+
+		
+		<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-3 wp-block-group-is-layout-flex">
+			<nav class="is-responsive items-justified-right wp-block-navigation is-horizontal is-content-justification-right is-layout-flex wp-container-core-navigation-is-layout-1 wp-block-navigation-is-layout-flex" aria-label="" data-wp-interactive="core/navigation" data-wp-context='{"overlayOpenedBy":{"click":false,"hover":false,"focus":false},"type":"overlay","roleAttribute":"","ariaLabel":"Menu"}'><button aria-haspopup="dialog" aria-label="Open menu" class="wp-block-navigation__responsive-container-open " data-wp-on-async--click="actions.openMenuOnClick" data-wp-on--keydown="actions.handleMenuKeydown"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="4" y="7.5" width="16" height="1.5"></rect><rect x="4" y="15" width="16" height="1.5"></rect></svg></button>
+				<div class="wp-block-navigation__responsive-container  " id="modal-1" data-wp-class--has-modal-open="state.isMenuOpen" data-wp-class--is-menu-open="state.isMenuOpen" data-wp-watch="callbacks.initMenu" data-wp-on--keydown="actions.handleMenuKeydown" data-wp-on-async--focusout="actions.handleMenuFocusout" tabindex="-1">
+					<div class="wp-block-navigation__responsive-close" tabindex="-1">
+						<div class="wp-block-navigation__responsive-dialog" data-wp-bind--aria-modal="state.ariaModal" data-wp-bind--aria-label="state.ariaLabel" data-wp-bind--role="state.roleAttribute">
+							<button aria-label="Close menu" class="wp-block-navigation__responsive-container-close" data-wp-on-async--click="actions.closeMenuOnClick"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M13 11.8l6.1-6.3-1-1-6.1 6.2-6.1-6.2-1 1 6.1 6.3-6.5 6.7 1 1 6.5-6.6 6.5 6.6 1-1z"></path></svg></button>
+							<div class="wp-block-navigation__responsive-container-content" data-wp-watch="callbacks.focusFirstElement" id="modal-1-content">
+								<ul class="wp-block-navigation__container is-responsive items-justified-right wp-block-navigation"><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content" href="/about-me/"><span class="wp-block-navigation-item__label">About Me</span></a></li></ul>
+							</div>
+						</div>
+					</div>
+				</div></nav>
+		</div>
+		
+	</div>
+	
+</div>
+</header>
+
+
+<main class="wp-block-group alignfull is-layout-flow wp-block-group-is-layout-flow">
+	
+	<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-bottom:var(--wp--preset--spacing--40);padding-top:var(--wp--preset--spacing--50)">
+		<figure style="margin-bottom:var(--wp--preset--spacing--40);" class="wp-block-post-featured-image"><img width="2560" height="1750" src="/wp-content/uploads/2024/10/cisco_7945-scaled.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" style="object-fit:cover;" decoding="async" fetchpriority="high" srcset="/wp-content/uploads/2024/10/cisco_7945-scaled.jpg 2560w, /wp-content/uploads/2024/10/cisco_7945-300x205.jpg 300w, /wp-content/uploads/2024/10/cisco_7945-1024x700.jpg 1024w, /wp-content/uploads/2024/10/cisco_7945-768x525.jpg 768w, /wp-content/uploads/2024/10/cisco_7945-1536x1050.jpg 1536w, /wp-content/uploads/2024/10/cisco_7945-2048x1400.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px"></figure>
+
+		
+		<div class="wp-block-group is-vertical is-content-justification-stretch is-layout-flex wp-container-core-group-is-layout-8 wp-block-group-is-layout-flex" style="padding-top:0;padding-bottom:0">
+			<h1 class="wp-block-post-title has-x-large-font-size">Cisco 7945G VoIP Phones and FreePBX</h1>
+
+			<div class="wp-block-template-part">
+<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<div class="wp-block-group is-content-justification-left is-layout-flex wp-container-core-group-is-layout-6 wp-block-group-is-layout-flex">
+<div class="wp-block-post-date"><time datetime="2024-10-13T17:00:00+00:00"><a href="/2024/10/cisco-7945g-freepbx/">October 13, 2024</a></time></div>
+
+
+<p class="has-contrast-2-color has-text-color">—</p>
+
+
+
+<p class="has-contrast-2-color has-text-color has-small-font-size">by</p>
+
+
+<div class="wp-block-post-author-name"><a href="/author/admin/" target="_self" class="wp-block-post-author-name__link">Ben Vaiciulis</a></div>
+
+<div class="taxonomy-category is-style-default wp-block-post-terms">
+<span class="wp-block-post-terms__prefix">in </span><a href="/category/projects/voip-and-pbx/" rel="tag">VoIP and PBX</a>
+</div>
+</div>
+</div>
+</div>
+		</div>
+		
+	</div>
+	
+
+	<div class="entry-content alignfull wp-block-post-content has-global-padding is-layout-constrained wp-block-post-content-is-layout-constrained">
+<div id="ez-toc-container" class="ez-toc-v2_0_72 counter-hierarchy ez-toc-counter ez-toc-grey ez-toc-container-direction">
+<div class="ez-toc-title-container">
+<p class="ez-toc-title" style="cursor:inherit">Table of Contents</p>
+<span class="ez-toc-title-toggle"><a href="#" class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle" aria-label="Toggle Table of Content"><span class="ez-toc-js-icon-con"><span class=""><span class="eztoc-hide" style="display:none;">Toggle</span><span class="ez-toc-icon-toggle-span"><svg style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg" class="list-377408" width="20px" height="20px" viewbox="0 0 24 24" fill="none"><path d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z" fill="currentColor"></path></svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013" xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewbox="0 0 24 24" version="1.2" baseprofile="tiny"><path d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z"></path></svg></span></span></span></a></span>
+</div>
+<nav><ul class="ez-toc-list ez-toc-list-level-1 ">
+<li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-1" href="#Intro" title="Intro">Intro</a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-2" href="#Technical_Definitions" title="Technical Definitions">Technical Definitions</a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-3" href="#Early_Planning" title="Early Planning">Early Planning</a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-4" href="#Initial_Setup_With_Problems" title="Initial Setup With Problems">Initial Setup With Problems</a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-5" href="#Installing_FreePBX_17" title="Installing FreePBX 17">Installing FreePBX 17</a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2">
+<a class="ez-toc-link ez-toc-heading-6" href="#Configuring_FreePBX_17" title="Configuring FreePBX 17">Configuring FreePBX 17</a><ul class="ez-toc-list-level-3">
+<li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-7" href="#Step_1_Page" title="Step 1 Page">Step 1 Page</a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-8" href="#Step_2_Page" title="Step 2 Page">Step 2 Page</a></li>
+</ul>
+</li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2">
+<a class="ez-toc-link ez-toc-heading-9" href="#TFTP_Server" title="TFTP Server">TFTP Server</a><ul class="ez-toc-list-level-3">
+<li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-10" href="#Overview_of_Files_Required" title="Overview of Files Required">Overview of Files Required</a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-11" href="#Firmware_Downloaded" title="Firmware Downloaded">Firmware Downloaded</a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-12" href="#Troubleshooting" title="Troubleshooting">Troubleshooting</a></li>
+</ul>
+</li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-13" href="#Registered" title="Registered">Registered</a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-14" href="#Local_Call_Established" title="Local Call Established">Local Call Established</a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-15" href="#Uploading_Custom_Wallpapers" title="Uploading Custom Wallpapers">Uploading Custom Wallpapers</a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-16" href="#Uploading_Custom_Ringtones" title="Uploading Custom Ringtones">Uploading Custom Ringtones</a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2">
+<a class="ez-toc-link ez-toc-heading-17" href="#Creating_SIP_Trunks" title="Creating SIP Trunks">Creating SIP Trunks</a><ul class="ez-toc-list-level-3">
+<li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-18" href="#Twilio_Trunk_Configuration" title="Twilio Trunk Configuration">Twilio Trunk Configuration</a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-19" href="#Outbound_and_Inbound_Trunks_on_FreePBX" title="Outbound and Inbound Trunks on FreePBX">Outbound and Inbound Trunks on FreePBX</a></li>
+</ul>
+</li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-20" href="#Inbound_and_Outbound_Routes_on_FreePBX" title="Inbound and Outbound Routes on FreePBX">Inbound and Outbound Routes on FreePBX</a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-21" href="#Outbound_Call_Established" title="Outbound Call Established">Outbound Call Established</a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-22" href="#Inbound_Call_Established" title="Inbound Call Established">Inbound Call Established</a></li>
+<li class="ez-toc-page-1 ez-toc-heading-level-2"><a class="ez-toc-link ez-toc-heading-23" href="#Completion" title="Completion">Completion</a></li>
+</ul></nav>
+</div>
+<h2 class="wp-block-heading">
+<span class="ez-toc-section" id="Intro"></span>Intro<span class="ez-toc-section-end"></span>
+</h2>
+
+
+
+<p class="has-background-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">Ever since I learned about the existence of VoIP phones during my time in the Cisco Networking Academy, I&#8217;ve always wondered how they work and how to set them up. This post follows my experience setting up two Cisco 7945G phones I acquired off eBay with the open-source <a href="https://www.freepbx.org/">FreePBX</a> software. I set these phones up to use the SIP protocol to register with the FreePBX server so that I could make calls locally (between the two phones themselves) as well as outbound calls to external numbers. To establish outbound calls to the Public Switched Telephone Network (PSTN), I used <a href="https://www.twilio.com/en-us">Twilio</a>. Once everything was configured properly, I could use one of the 7945G phones to call my cell phone and vice versa.</p>
+
+
+
+<p class="has-background-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">I hope this post serves as both an interesting story and somewhat of a guide to those who want to do something similar. There are several <strong>Note</strong> sections containing important information. If you are using this post as a guide, I strongly encourage you to examine those sections. Although this project uses 7945 IP phones, FreePBX 17, and Twilio, certain concepts here can be applied to different situations. For example, I used the knowledge I gained here when working with a 7941 IP phone.</p>
+
+
+
+<p class="has-background-background-color has-background" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">The sources used in this project for are referenced at the end so if you want more information, feel free to check those out.</p>
+
+
+
+<h2 class="wp-block-heading">
+<span class="ez-toc-section" id="Technical_Definitions"></span>Technical Definitions<span class="ez-toc-section-end"></span>
+</h2>
+
+
+
+<p>Below are the definitions of some of the general concepts mentioned throughout the project and the purpose of the concept if it is relevant. This will hopefully allow you to get a better understanding of what is happening. These terms are in alphabetical order. Each term is a link to further reading if you are interested.</p>
+
+
+
+<ul class="wp-block-list">
+<li>
+<a href="https://www.cisco.com/c/en/us/about.html"><strong>Cisco</strong></a> is a well-respected, multinational technology company offering software, network, and cybersecurity solutions.</li>
+
+
+
+<li>
+<strong><a href="https://linuxiac.com/debian-12-bookworm-released/">Debian 12</a></strong> is a Linux operating system that is officially supported by the FreePBX project which is why I chose this one.</li>
+
+
+
+<li>
+<strong><a href="https://www.lifewire.com/what-is-dhcp-2625848">DHCP</a></strong> (Dynamic Host Configuration Protocol) is a widely used protocol that automatically assigns IP addresses to devices that request one based on a pool of available addresses. DHCP is useful in cases where the IP address of a device doesn&#8217;t need to stay the same.</li>
+
+
+
+<li>
+<strong><a href="https://en.wikipedia.org/wiki/Firmware">Firmware</a></strong>, in terms of a Cisco IP phone, is the software that runs the phone. It&#8217;s the software that makes SIP requests in the registration process. It&#8217;s also the software that loads the wallpaper image. Firmware for the 7945G phones are designed for either SIP or <a href="https://en.wikipedia.org/wiki/Skinny_Client_Control_Protocol">SCCP</a> (a Cisco proprietary protocol that isn&#8217;t relevant for this project). Since FreePBX works better with SIP, that&#8217;s the type of firmware I acquired.</li>
+
+
+
+<li>
+<strong><a href="https://www.freepbx.org/">FreePBX</a></strong> is a popular, open-source PBX (Private Branch Exchange) solution. Given the large amount of tutorials and guides online, it&#8217;s a great choice for a project like this.</li>
+
+
+
+<li>Two devices on a <strong><a href="https://www.cisco.com/c/en/us/products/switches/what-is-a-lan-local-area-network.html">LAN</a></strong> (Local Area Network) are on the same computer network meaning they don&#8217;t need the internet to talk to each other. As long as the power is on, they can communicate.</li>
+
+
+
+<li>A <strong><a href="https://www.howtogeek.com/764868/what-is-a-mac-address-and-how-does-it-work/">MAC address</a></strong> or media access control address is a physical, unique identifier assigned to every network interface (like an IP phone&#8217;s Ethernet port). Because it is unique, the configuration file unique to each phone in this project must be named using the phone&#8217;s MAC address: <code>SEP&lt;MAC&gt;.cnf.xml</code> where <code>&lt;MAC&gt;</code> is replaced with the MAC address.</li>
+
+
+
+<li>
+<strong><a href="https://medium.com/@stephendjoshua/what-is-proxmox-and-why-is-it-awesome-f16ef5a57ca0">Proxmox</a></strong> is a virtualization platform that is capable of running multiple VMs. Proxmox is installed directly onto a machine&#8217;s hardware (no OS above it) and can allocate resources to the VMs created using its web interface.</li>
+
+
+
+<li>
+<strong><a href="https://en.wikipedia.org/wiki/Public_switched_telephone_network">PSTN</a></strong> (Public Switched Telephone Network) is the &#8220;aggregate of the world&#8217;s telephone networks&#8221; that enables voice communication to take place around the world. Connecting to the PSTN means being able to make and receive calls from the rest of the world.</li>
+
+
+
+<li>
+<strong><a href="https://en.wikipedia.org/wiki/Session_Initiation_Protocol">SIP</a></strong> (Session Initiation Protocol) is used for establishing, maintaining, and terminating voice connections among other things. It uses port 5060.</li>
+
+
+
+<li style="margin-top:0;margin-bottom:0">
+<strong><a href="https://en.wikipedia.org/wiki/Trivial_File_Transfer_Protocol">TFTP</a></strong> (Trivial File Transfer Protocol) is a simple protocol that can be used to transfer files between two computers. It&#8217;s perfect for &#8220;network booting&#8221; where devices rely on files on a TFTP server in order to be able to boot.</li>
+
+
+
+<li>
+<strong><a href="https://www.twilio.com/en-us">Twilio</a></strong>, in my case, is a VoIP service provider that I used to connect to the PSTN in order to place outbound calls. Twilio is a paid service (pay by the minute) but I wasn&#8217;t spending a lot of time talking with external numbers. The setup process for Twilio is fairly simple with the most difficult part being the setup for SIP authentication and the configuration of the entry point into your PBX infrastructure (inbound calls need a path to the SIP server to reach the registered IP phones).</li>
+
+
+
+<li>A <strong><a href="https://www.ibm.com/topics/virtual-machines">VM</a></strong> (Virtual Machine) is an emulation of an operating system within another operating system. This means that you could have one server with multiple &#8220;computers&#8221; within it, some could be Linux and others could be Windows.</li>
+
+
+
+<li>A <strong><a href="https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7945g/product_data_sheet0900aecd8069bb80.html">7945G VoIP Phone</a></strong> is one of Cisco&#8217;s VoIP phones. It&#8217;s an older model but it has enough functionality for this project.</li>
+</ul>
+
+
+
+<hr class="wp-block-separator has-text-color has-foreground-color has-alpha-channel-opacity has-foreground-background-color has-background is-style-wide">
+
+
+
+<h2 class="wp-block-heading">
+<span class="ez-toc-section" id="Early_Planning"></span>Early Planning<span class="ez-toc-section-end"></span>
+</h2>
+
+
+
+<p><em><strong>9/26/2024</strong></em></p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img decoding="async" width="497" height="625" src="/wp-content/uploads/2024/10/network_diagram.drawio-2.png" alt="" class="wp-image-159" style="width:615px;height:auto" srcset="/wp-content/uploads/2024/10/network_diagram.drawio-2.png 497w, /wp-content/uploads/2024/10/network_diagram.drawio-2-239x300.png 239w" sizes="(max-width: 497px) 100vw, 497px"></figure>
+
+
+
+<p>The above diagram is what I wanted the final network to look like. The lines connecting the devices together represent an Ethernet connection. The table below describes each element of the network in detail, starting from the top.</p>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody>
+<tr>
+<td><strong>Element</strong></td>
+<td><strong>Description</strong></td>
+</tr>
+<tr>
+<td>External Caller</td>
+<td>This phone represents any phone outside the network that wants to establish an inbound call.</td>
+</tr>
+<tr>
+<td>VoIP Service Provider Cloud</td>
+<td>I didn&#8217;t know it at the time but this represents Twilio&#8217;s network infrastructure. This cloud enables my PBX network to make and receive external calls.</td>
+</tr>
+<tr>
+<td>Router</td>
+<td>A router is a device that interconnects networks together. In this case, it represents a connection between my LAN network and the internet (more specifically, the Twilio cloud).</td>
+</tr>
+<tr>
+<td>SIP Server</td>
+<td>This server runs the FreePBX software along with other important services such as DHCP and TFTP for the SIP registration process. The server runs on a Debian 12 virtual machine which itself runs on Proxmox.</td>
+</tr>
+<tr>
+<td>Switch</td>
+<td>A switch is a device that interconnects devices on the same network (LAN). Here, it&#8217;s used to create the foundation of the PBX network by putting the SIP server and IP phones on the same network.</td>
+</tr>
+<tr>
+<td>Terminal Computer</td>
+<td>This represents the laptop which I used to manage every component of the network.</td>
+</tr>
+<tr>
+<td>Cisco VoIP Phones #1 and #2</td>
+<td>These are the phones that will eventually be registered with the SIP server and be able to make calls with each other and to external phone numbers.</td>
+</tr>
+</tbody></table></figure>
+
+
+
+<div class="wp-block-group has-accent-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<p style="padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);padding-left:var(--wp--preset--spacing--10)"><strong>Note</strong><br>In order to upload custom firmware to these phones, they need to be on a network that has a <strong>DHCP</strong> server as well as a <strong>TFTP</strong> server. The DHCP server will give the phones their IP address and the TFTP server will give the phones their firmware based on their MAC address (this should be physically written on the phones somewhere). When the phones connect to the TFTP server, they will look for a file named <code>SEP&lt;MAC&gt;.cnf.xml</code> where &#8220;&lt;MAC&gt;&#8221; is replaced with the phone&#8217;s MAC address. Each phone must have their own configuration file on the TFTP server.</p>
+</div>
+
+
+
+<h2 class="wp-block-heading">
+<span class="ez-toc-section" id="Initial_Setup_With_Problems"></span>Initial Setup With Problems<span class="ez-toc-section-end"></span>
+</h2>
+
+
+
+<p style="padding-top:0px;padding-bottom:0px"><strong><em>9/27/2024</em></strong></p>
+
+
+
+<p style="padding-top:0;padding-bottom:0">When I got the two phones, one of them already had firmware installed and was attempting to register with an already-configured Unified CM while the other was stuck on an &#8220;Updating&#8221; screen. I initially thought that the second phone was unusable for my purposes. Ironically, that phone ended up being the first to register with my SIP server.</p>
+
+
+
+<p>I tried to perform a <strong>factory reset</strong> on the second phone by following these steps:</p>
+
+
+
+<ol class="wp-block-list">
+<li>Disconnect the phone from power</li>
+
+
+
+<li>Reconnect the phone and hold the <strong>#</strong> key while it boots</li>
+
+
+
+<li>When the line buttons start flashing amber, release the <strong>#</strong> key</li>
+
+
+
+<li>Enter <strong>123456789*0#</strong> into the phone</li>
+</ol>
+
+
+
+<p>That unfortunately did nothing and I put the phones aside to focus on the SIP server.</p>
+
+
+
+<h2 class="wp-block-heading">
+<span class="ez-toc-section" id="Installing_FreePBX_17"></span>Installing FreePBX 17<span class="ez-toc-section-end"></span>
+</h2>
+
+
+
+<p>According to the FreePBX wiki, here is what you have to run to install FreePBX:</p>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro" data-code-block-pro-font-family="Code-Pro-Roboto-Mono.ttf" style="font-size:1rem;font-family:Code-Pro-Roboto-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;line-height:1.5rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)">
+<span style="display:flex;align-items:center;padding:10px 0px 0 16px;font-size:0.8em;width:100%;text-align:left;background-color:#272822;font-style:italic;color:#F8F8F2"><span style="border-bottom:1px solid rgba(253, 253, 237, 0.2)">Bash</span></span><span role="button" tabindex="0" data-code="cd /tmp
+wget https://github.com/FreePBX/sng_freepbx_debian_install/raw/master/sng_freepbx_debian_install.sh -O /tmp/sng_freepbx_debian_install.sh
+bash /tmp/sng_freepbx_debian_install.sh" style="color:#F8F8F2;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg></span><pre class="shiki monokai" style="background-color: #272822" tabindex="0"><code><span class="line"><span style="color: #66D9EF">cd</span><span style="color: #F8F8F2"> </span><span style="color: #E6DB74">/tmp</span></span>
+<span class="line"><span style="color: #A6E22E">wget</span><span style="color: #F8F8F2"> </span><span style="color: #E6DB74">https://github.com/FreePBX/sng_freepbx_debian_install/raw/master/sng_freepbx_debian_install.sh</span><span style="color: #F8F8F2"> </span><span style="color: #AE81FF">-O</span><span style="color: #F8F8F2"> </span><span style="color: #E6DB74">/tmp/sng_freepbx_debian_install.sh</span></span>
+<span class="line"><span style="color: #A6E22E">bash</span><span style="color: #F8F8F2"> </span><span style="color: #E6DB74">/tmp/sng_freepbx_debian_install.sh</span></span></code></pre>
+</div>
+
+
+
+<p>After I had run these commands, I was able to access the FreePBX management interface by entering <code><strong>http://&lt;FREEPBX_SERVER_IP&gt;</strong></code> into my browser.</p>
+
+
+
+<h2 class="wp-block-heading">
+<span class="ez-toc-section" id="Configuring_FreePBX_17"></span>Configuring FreePBX 17<span class="ez-toc-section-end"></span>
+</h2>
+
+
+
+<p>In order for a phone to register on FreePBX, it needs an account. This is where <strong>extensions</strong> come into play. An extension is a short number (4 digits in my configuration) assigned to a VoIP phone that allows it to be dialed by another phone. To quickly configure extensions on FreePBX, go to <strong>Connectivity &gt; Extensions &gt; Quick Create Extensions</strong>. Below are the details on the relevant settings for both pages of the quick create menu.</p>
+
+
+
+<h3 class="wp-block-heading">
+<span class="ez-toc-section" id="Step_1_Page"></span>Step 1 Page<span class="ez-toc-section-end"></span>
+</h3>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody>
+<tr>
+<td><strong>Variable</strong></td>
+<td><strong>Description</strong></td>
+</tr>
+<tr>
+<td>Extension Type</td>
+<td>Select <strong>chan_pjsip</strong> as chan_sip is deprecated.</td>
+</tr>
+<tr>
+<td>Extension Number</td>
+<td>This is what other phones would use to dial the current phone. Use a <strong>3-5 digit number</strong> and don&#8217;t begin with 1 to avoid overlapping with existing services.</td>
+</tr>
+<tr>
+<td>Display Name</td>
+<td>The person who owns this extension.</td>
+</tr>
+</tbody></table></figure>
+
+
+
+<h3 class="wp-block-heading">
+<span class="ez-toc-section" id="Step_2_Page"></span>Step 2 Page<span class="ez-toc-section-end"></span>
+</h3>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody>
+<tr>
+<td><strong>Variable</strong></td>
+<td><strong>Description</strong></td>
+</tr>
+<tr>
+<td>Enable Voicemail</td>
+<td>The toggle for voicemail.</td>
+</tr>
+<tr>
+<td>Voicemail PIN</td>
+<td>The password used to access an extension&#8217;s messages after dialing <strong>*98</strong> (voicemail service).</td>
+</tr>
+</tbody></table></figure>
+
+
+
+<div class="wp-block-group has-accent-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<p style="padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);padding-left:var(--wp--preset--spacing--10)"><strong>Note</strong><br>When I was having trouble getting the phone to register with the SIP server, I was getting a <code>401 Authorization</code> error from the SIP server (according to the phone&#8217;s logs). I had <code><strong>&lt;authPassword&gt;</strong></code> in the SEP&lt;MAC&gt; file set to the same password I would use to login into the user account on FreePBX. I fixed this issue by setting <strong>Connectivity &gt; Extensions &gt; Edit Extension &gt; General &gt; Secret</strong> to the same password I was using to login to the user account. I did try taking the already-existing secret and putting that into SEP&lt;MAC&gt; but that didn&#8217;t work for me so I changed the secret.</p>
+</div>
+
+
+
+<h2 class="wp-block-heading">
+<span class="ez-toc-section" id="TFTP_Server"></span>TFTP Server<span class="ez-toc-section-end"></span>
+</h2>
+
+
+
+<p><strong><em>9/30/2024</em></strong></p>
+
+
+
+<p>The TFTP server is a vital part of configuring the VoIP phones. This is what they use to obtain everything from firmware to wallpaper images. In my case, the files were being served from the <code><strong>/tftpboot</strong></code> directory. This means that everything that must be reached by a phone has to be within that directory.</p>
+
+
+
+<p>A simple way to check if a file is accessible on the LAN is to run the following command on a different computer in the same LAN: <code><strong>tftp &lt;IP&gt; get &lt;FILE&gt;</strong></code> which will attempt to connect to the server over TFTP and download the specified file.</p>
+
+
+
+<h3 class="wp-block-heading">
+<span class="ez-toc-section" id="Overview_of_Files_Required"></span>Overview of Files Required<span class="ez-toc-section-end"></span>
+</h3>
+
+
+
+<pre class="wp-block-code has-contrast-color has-text-color has-link-color wp-elements-408dface76a9e8d820ac600f6ebbce53"><code><strong>Configuration Files</strong>
+dialplan.xml (Dialing Configuration)
+SEP&lt;MAC&gt;.cnf.xml (Phone-Specific Configuration)
+
+<strong>Firmware Files (.loads and .sbn files)</strong>
+apps45.9-2-1TH1-13.sbn
+cnu45.9-2-1TH1-13.sbn
+cvm45sip.9-2-1TH1-13.sbn
+dsp45.9-2-1TH1-13.sbn
+jar45sip.9-2-1TH1-13.sbn
+SIP45.9-2-1S.loads
+term45.default.loads
+
+<em>The above firmware files are for version 9.2.1, which was the version I picked to upload to the phones. Files for other firmware versions for the 7945 will begin the filenames the same way: "apps45", "cnu45", etc. The file "term45.default.loads" should have the same name across different firmware but different contents.</em></code></pre>
+
+
+
+<p>These files can be found online but since phones like these are pretty old, it can be tricky. Fortunately, the <a href="https://github.com/staskobzar/cisco_prov">cisco_prov</a> GitHub repository contains a lot of what you would need to setup a Cisco VoIP phone. Another source of firmware files is <a href="https://www.firewall.cx/downloads/cisco-ip-phones-voip-devices-firmware-software/cisco-7945g-7965g-sccp-sip-firmware-v9-2-1.html">firewall.cx</a>.</p>
+
+
+
+<p>The most notable file here is the <strong><code>SEP&lt;MAC&gt;.cnf.xml</code></strong> file. Most of the troubleshooting I did led me back to this file. It&#8217;s the phone-specific configuration file that tells the phone where it can find the SIP server as well as where it can find configuration files on the TFTP server. This file also allows you to define different settings on the phone such as the format of the date display (M/D/Y) among many other things.</p>
+
+
+
+<h3 class="wp-block-heading">
+<span class="ez-toc-section" id="Firmware_Downloaded"></span>Firmware Downloaded<span class="ez-toc-section-end"></span>
+</h3>
+
+
+
+<p><strong><em>10/1/2024</em></strong></p>
+
+
+
+<p>After uploading the necessary files to the TFTP server, I was able to get the phone stuck on &#8220;Updating&#8221; to download the SIP firmware files. Don&#8217;t forget to specify the proper firmware file in the <strong><code>&lt;loadInformation&gt;</code></strong> tag of the SEP&lt;MAC&gt; file. In my case, I had it set to <code><strong>SIP45.9-2-1S.loads</strong></code>.</p>
+
+
+
+<div class="wp-block-group has-accent-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<p style="padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);padding-left:var(--wp--preset--spacing--10)"><strong>Note</strong><br>I thought that I would need to set <strong>DHCP option 66</strong> (to specify a TFTP server IP address) so that my phones would be able to locate the TFTP server but my SIP server was also running a DHCP server on the same network (dnsmasq) and Cisco IP phones like these seem to default to using the IP address of the DHCP server as their TFTP server IP address. Because of this, I didn&#8217;t need to set the option. Much later (after this project), when downloading firmware onto a Cisco 7941 IP Phone, I discovered that I needed to set <strong>DHCP option 150</strong> (same purpose as option 66) on my Cisco 1941 router in order for the phone to discover the TFTP server on my lab network. With all that being said, make sure to consider where your phones think the TFTP server is.</p>
+</div>
+
+
+
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-top">
+<figure class="wp-block-media-text__media"><img decoding="async" width="768" height="1024" src="/wp-content/uploads/2024/10/IMG_3613-768x1024.jpg" alt="" class="wp-image-37 size-full" srcset="/wp-content/uploads/2024/10/IMG_3613-768x1024.jpg 768w, /wp-content/uploads/2024/10/IMG_3613-225x300.jpg 225w, /wp-content/uploads/2024/10/IMG_3613-1152x1536.jpg 1152w, /wp-content/uploads/2024/10/IMG_3613-1536x2048.jpg 1536w, /wp-content/uploads/2024/10/IMG_3613-scaled.jpg 1920w" sizes="(max-width: 768px) 100vw, 768px"></figure><div class="wp-block-media-text__content">
+<p>This is what the phone looked like during the firmware download process. When I saw this screen pop up on the phone, I was overjoyed. I knew that this was a step in the right direction. I was starting to lose hope of ever being able to use this seemingly &#8220;bricked&#8221; phone. Luckily, I was able to set up TFTP correctly. </p>
+</div>
+</div>
+
+
+
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-top">
+<figure class="wp-block-media-text__media"><img loading="lazy" decoding="async" width="768" height="1024" src="/wp-content/uploads/2024/10/voip_progress-768x1024.jpg" alt="" class="wp-image-35 size-full" srcset="/wp-content/uploads/2024/10/voip_progress-768x1024.jpg 768w, /wp-content/uploads/2024/10/voip_progress-225x300.jpg 225w, /wp-content/uploads/2024/10/voip_progress-1152x1536.jpg 1152w, /wp-content/uploads/2024/10/voip_progress-1536x2048.jpg 1536w, /wp-content/uploads/2024/10/voip_progress-scaled.jpg 1920w" sizes="(max-width: 768px) 100vw, 768px"></figure><div class="wp-block-media-text__content">
+<p>This photo shows my phone just after having new firmware installed. As you can see, <strong>Line 1</strong> has a red X and the phone displays &#8220;Registering&#8221; to indicate that it has not been able to register with the SIP server.</p>
+</div>
+</div>
+
+
+
+<h3 class="wp-block-heading">
+<span class="ez-toc-section" id="Troubleshooting"></span>Troubleshooting<span class="ez-toc-section-end"></span>
+</h3>
+
+
+
+<p><strong><em>10/2/2024 &#8211; 10/4/2024</em></strong></p>
+
+
+
+<p>Below are the key changes I implemented in order to get the phone to register with the SIP server. The most notable change was changing the value within the <code>&lt;proxy&gt;</code> tag in SEP&lt;MAC&gt; to <code>USECALLMANAGER</code>. I believe this tells the phone to consult its <code>&lt;callManager&gt;</code> configuration (within the same file) to get the IP address of the SIP server.</p>
+
+
+
+<p><strong>SEP&lt;MAC&gt;.cnf.xml</strong></p>
+
+
+
+<ul style="margin-top:0;margin-bottom:0" class="wp-block-list">
+<li>Removed <code>&lt;name&gt;</code> from <code>&lt;callManager&gt;</code>
+</li>
+
+
+
+<li>Set <code>&lt;processNodeName&gt;</code> under <code>&lt;callManager&gt;</code> to my SIP server&#8217;s IP address</li>
+
+
+
+<li>Set <code>&lt;natEnabled&gt;</code> to <code>false</code>
+</li>
+
+
+
+<li><strong>Set <code>&lt;proxy&gt;</code> to <code>USECALLMANAGER</code></strong></li>
+</ul>
+
+
+
+<p><strong>Extension &gt; Advanced</strong></p>
+
+
+
+<ul style="margin-top:0;margin-bottom:0" class="wp-block-list">
+<li>Set <strong>Rewrite Contact</strong> to <strong>No</strong>
+</li>
+
+
+
+<li>Set <strong>Force rport</strong> to <strong>No</strong>
+</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">
+<span class="ez-toc-section" id="Registered"></span>Registered<span class="ez-toc-section-end"></span>
+</h2>
+
+
+
+<p><strong><em>10/5/2024</em></strong></p>
+
+
+
+<div class="wp-block-media-text is-stacked-on-mobile is-vertically-aligned-top">
+<figure class="wp-block-media-text__media"><img loading="lazy" decoding="async" width="768" height="1024" src="/wp-content/uploads/2024/10/IMG_3728-768x1024.jpg" alt="" class="wp-image-39 size-full" srcset="/wp-content/uploads/2024/10/IMG_3728-768x1024.jpg 768w, /wp-content/uploads/2024/10/IMG_3728-225x300.jpg 225w, /wp-content/uploads/2024/10/IMG_3728-1152x1536.jpg 1152w, /wp-content/uploads/2024/10/IMG_3728-1536x2048.jpg 1536w, /wp-content/uploads/2024/10/IMG_3728-scaled.jpg 1920w" sizes="(max-width: 768px) 100vw, 768px"></figure><div class="wp-block-media-text__content">
+<p>After a considerable amount of troubleshooting, I was finally able to get the phone to register. The photo shows what the phone looked like just after registering. As you can tell, the red X on <strong>Line 1</strong> is gone. At this point, I was able to use the phone to call itself. I wasn&#8217;t able to pick up the call but I was able to leave a message for myself. I could then play that message back by accessing my voicemail messages by calling <strong>*98</strong> (FreePBX voicemail service), entering my extension and voicemail PIN, and selecting <strong>1</strong> for new messages.</p>
+</div>
+</div>
+
+
+
+<p>In terms of functionality, this phone was ready to make and receive calls on the LAN. I moved on to setting up the second phone to run the same firmware by creating another <code>SEP&lt;MAC&gt;.cnf.xml</code> file for the second phone. I also created another account on FreePBX. After doing that, I booted up the second phone but disappointingly found that the second phone was perfectly fine with the firmware it already had. I decided a factory reset was the most straight-forward solution so I went through the factory reset steps. That fixed the issue. Since the phone had no firmware, it was forced to go look for a TFTP server. Soon, I had two phones registered with FreePBX.</p>
+
+
+
+<h2 class="wp-block-heading">
+<span class="ez-toc-section" id="Local_Call_Established"></span>Local Call Established<span class="ez-toc-section-end"></span>
+</h2>
+
+
+
+<p><strong><em>10/6/2024</em></strong></p>
+
+
+
+<p>I was able to establish a call between the two phones however, the handset on the other phone only had the microphone part working meaning that I couldn&#8217;t hear anything unless I put the phone on speaker mode. I know that this was the case because I couldn&#8217;t hear the dial tone on the handset when holding it next to my ear until I swapped it with the handset on the other phone. I ordered a replacement handset on Amazon.</p>
+
+
+
+<h2 class="wp-block-heading">
+<span class="ez-toc-section" id="Uploading_Custom_Wallpapers"></span>Uploading Custom Wallpapers<span class="ez-toc-section-end"></span>
+</h2>
+
+
+
+<p style="margin-top:var(--wp--preset--spacing--10);margin-bottom:var(--wp--preset--spacing--10);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><a href="https://usecallmanager.nz/image-list-xml.html">Usecallmanager.nz</a> is the resource I used to note the wallpaper requirements for 7945 phones. A <strong><code>Desktops/320x212x16</code></strong> directory needs to exist on the TFTP server. That directory should contain a file called <strong><code>List.xml</code></strong> that acts as a listing of the available wallpapers on the TFTP server.</p>
+
+
+
+<p style="margin-top:var(--wp--preset--spacing--10);margin-bottom:var(--wp--preset--spacing--10)">The <strong><code>List.xml</code></strong> should follow the format shown in the code snippet below where <strong><code>image.png</code></strong> is the actual wallpaper image of size <strong>320x212px</strong> and <strong><code>preview.png</code></strong> is the preview image of size <strong>80x53px</strong> shown in the background image selection menu.</p>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro" data-code-block-pro-font-family="Code-Pro-Roboto-Mono.ttf" style="font-size:1rem;font-family:Code-Pro-Roboto-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;--cbp-line-number-width:calc(1 * 0.6 * 1rem);line-height:1.5rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)">
+<span style="display:flex;align-items:center;padding:10px 0px 0 16px;font-size:0.8em;width:100%;text-align:left;background-color:#272822;font-style:italic;color:#F8F8F2"><span style="border-bottom:1px solid rgba(253, 253, 237, 0.2)">XML</span></span><span role="button" tabindex="0" data-code="&lt;CiscoIPPhoneImageList&gt;
+	&lt;ImageItem Image=&quot;TFTP:Desktops/320x212x16/preview.png&quot; URL=&quot;TFTP:Desktops/320x212x16/image.png&quot; /&gt;
+&lt;/CiscoIPPhoneImageList&gt;" style="color:#F8F8F2;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg></span><pre class="shiki monokai" style="background-color: #272822" tabindex="0"><code><span class="line"><span style="color: #F8F8F2">&lt;</span><span style="color: #F92672">CiscoIPPhoneImageList</span><span style="color: #F8F8F2">&gt;</span></span>
+<span class="line"><span style="color: #F8F8F2">	&lt;</span><span style="color: #F92672">ImageItem</span><span style="color: #F8F8F2"> </span><span style="color: #A6E22E">Image</span><span style="color: #F8F8F2">=</span><span style="color: #E6DB74">&quot;TFTP:Desktops/320x212x16/preview.png&quot;</span><span style="color: #F8F8F2"> </span><span style="color: #A6E22E">URL</span><span style="color: #F8F8F2">=</span><span style="color: #E6DB74">&quot;TFTP:Desktops/320x212x16/image.png&quot;</span><span style="color: #F8F8F2"> /&gt;</span></span>
+<span class="line"><span style="color: #F8F8F2">&lt;/</span><span style="color: #F92672">CiscoIPPhoneImageList</span><span style="color: #F8F8F2">&gt;</span></span></code></pre>
+</div>
+
+
+
+<div class="wp-block-group has-accent-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<p style="padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);padding-left:var(--wp--preset--spacing--10)"><strong>Note</strong><br><strong><code>List.xml</code></strong> can have a maximum of 50 entries and both images must be in <strong>PNG</strong> format.</p>
+</div>
+
+
+
+<h2 class="wp-block-heading">
+<span class="ez-toc-section" id="Uploading_Custom_Ringtones"></span>Uploading Custom Ringtones<span class="ez-toc-section-end"></span>
+</h2>
+
+
+
+<p>The process for uploading custom ringtones is similar to uploading custom wallpapers in that there needs to be an xml file listing out every item. In this case it&#8217;s <code><strong>ringlist.xml</strong></code>. According to <a href="https://usecallmanager.nz/ring-list-xml.html">usecallmanager.nz</a>, the format should look like the code snippet below where <strong>NAME</strong> is the display name of the ringtone in the selection menu of the phone and <strong>FILENAME.raw</strong> is the name of the ringtone file. Both the list file and the ringtone files must be located in the root of the TFTP server.</p>
+
+
+
+<div class="wp-block-kevinbatdorf-code-block-pro" data-code-block-pro-font-family="Code-Pro-Roboto-Mono.ttf" style="font-size:1rem;font-family:Code-Pro-Roboto-Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;--cbp-line-number-width:calc(1 * 0.6 * 1rem);line-height:1.5rem;--cbp-tab-width:2;tab-size:var(--cbp-tab-width, 2)">
+<span style="display:flex;align-items:center;padding:10px 0px 0 16px;font-size:0.8em;width:100%;text-align:left;background-color:#272822;font-style:italic;color:#F8F8F2"><span style="border-bottom:1px solid rgba(253, 253, 237, 0.2)">XML</span></span><span role="button" tabindex="0" data-code="&lt;CiscoIPPhoneRingList&gt;
+	&lt;Ring&gt;
+		&lt;DisplayName&gt;NAME&lt;/DisplayName&gt;
+		&lt;FileName&gt;FILENAME.raw&lt;/FileName&gt;
+	&lt;/Ring&gt;
+&lt;/CiscoIPPhoneRingList&gt;" style="color:#F8F8F2;display:none" aria-label="Copy" class="code-block-pro-copy-button"><svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px" fill="none" viewbox="0 0 24 24" stroke="currentColor" stroke-width="2"><path class="with-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path><path class="without-check" stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg></span><pre class="shiki monokai" style="background-color: #272822" tabindex="0"><code><span class="line"><span style="color: #F8F8F2">&lt;</span><span style="color: #F92672">CiscoIPPhoneRingList</span><span style="color: #F8F8F2">&gt;</span></span>
+<span class="line"><span style="color: #F8F8F2">	&lt;</span><span style="color: #F92672">Ring</span><span style="color: #F8F8F2">&gt;</span></span>
+<span class="line"><span style="color: #F8F8F2">		&lt;</span><span style="color: #F92672">DisplayName</span><span style="color: #F8F8F2">&gt;NAME&lt;/</span><span style="color: #F92672">DisplayName</span><span style="color: #F8F8F2">&gt;</span></span>
+<span class="line"><span style="color: #F8F8F2">		&lt;</span><span style="color: #F92672">FileName</span><span style="color: #F8F8F2">&gt;FILENAME.raw&lt;/</span><span style="color: #F92672">FileName</span><span style="color: #F8F8F2">&gt;</span></span>
+<span class="line"><span style="color: #F8F8F2">	&lt;/</span><span style="color: #F92672">Ring</span><span style="color: #F8F8F2">&gt;</span></span>
+<span class="line"><span style="color: #F8F8F2">&lt;/</span><span style="color: #F92672">CiscoIPPhoneRingList</span><span style="color: #F8F8F2">&gt;</span></span></code></pre>
+</div>
+
+
+
+<div class="wp-block-group has-accent-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<p style="padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);padding-left:var(--wp--preset--spacing--10)"><strong>Note</strong><br><strong><code>ringlist.xml</code></strong> can also have a maximum of 50 entries and the files must be either a <strong>.raw</strong> or a <strong>.rwb</strong> file.</p>
+</div>
+
+
+
+<h2 class="wp-block-heading">
+<span class="ez-toc-section" id="Creating_SIP_Trunks"></span>Creating SIP Trunks<span class="ez-toc-section-end"></span>
+</h2>
+
+
+
+<p><strong><em>10/7/2024</em></strong></p>
+
+
+
+<p>After successfully making a local call between the phones and customizing them a little, I began to focus on getting outbound and inbound calls to work. The first step was to configure SIP trunks which are essentially connections between PBX infrastructure (my SIP server) and an VoIP service provider (Twilio). I needed to configure an outbound trunk and an inbound trunk for this to work. This required configuration on both Twilio and FreePBX. Twilio actually has a <a href="https://docs-assets.prod.twilio.com/documents/TwilioElasticSIPTrunking-FreePBX-Configuration-Guide-Version1-0-FINAL-06122018.pdf">guide</a> for configuring SIP trunks with FreePBX that was helpful.</p>
+
+
+
+<h3 class="wp-block-heading">
+<span class="ez-toc-section" id="Twilio_Trunk_Configuration"></span>Twilio Trunk Configuration<span class="ez-toc-section-end"></span>
+</h3>
+
+
+
+<p>My Twilio configuration was fairly simple. For the termination configuration (for outbound traffic to the PSTN), I created a custom <strong>termination URI</strong> (web address) ending in <code>.pstn.twilio.com</code> which FreePBX would use to make outbound calls. I also created some <strong>credentials</strong> that my FreePBX server would need to authenticate to Twilio. For the origination configuration (incoming traffic to my server), I had to define an IP address which would be the &#8220;entry point&#8221; into my infrastructure. That was all I needed to configure on Twilio. The termination URI and credentials would have to be configured on FreePBX next.</p>
+
+
+
+<h3 class="wp-block-heading">
+<span class="ez-toc-section" id="Outbound_and_Inbound_Trunks_on_FreePBX"></span>Outbound and Inbound Trunks on FreePBX<span class="ez-toc-section-end"></span>
+</h3>
+
+
+
+<p>To start configuring an outbound trunk, I went to <strong>Connectivity &gt; Trunks &gt; Add Trunk</strong>. On the <strong>General</strong> page, I named the trunk and added the <strong>Outbound CallerID</strong> which is the phone number I received from Twilio. On the <strong>pjsip Settings</strong> tab, I entered the credentials I configured in the Twilio termination configuration, set <strong>Authentication</strong> to <strong>Outbound</strong>, <strong>Registration</strong> to <strong>Send</strong>, and <strong>SIP Server</strong> to the termination URI I created on Twilio. The inbound trunk followed a similar configuration to the outbound trunk since both have similar settings.</p>
+
+
+
+<h2 class="wp-block-heading">
+<span class="ez-toc-section" id="Inbound_and_Outbound_Routes_on_FreePBX"></span>Inbound and Outbound Routes on FreePBX<span class="ez-toc-section-end"></span>
+</h2>
+
+
+
+<p>The trunks are pretty much useless without any routes configured since the routes are what use the trunks.</p>
+
+
+
+<p>Configuring the inbound route was simple. I wanted all traffic to go to only one of my extensions. I went to <strong>Connectivity &gt; Inbound Routes &gt; Add Inbound Route</strong>. I set the destination to <strong>Extensions</strong> and selected the extension I wanted the traffic to go to.</p>
+
+
+
+<p>To configure an outbound route, I went to <strong>Connectivity &gt; Outbound Routes &gt; Add Outbound Route</strong>. On <strong>Route Settings</strong>, I gave the route a name and added the <strong>Route CID</strong> which is the Twilio phone number. I also linked the outbound trunk to the outbound route by adding it to <strong>Trunk Sequence for Matched Routes</strong>. Below are what my dial patterns looked like on the <strong>Dial Patterns</strong> tab.</p>
+
+
+
+<pre class="wp-block-code"><code>( )    &#91;+1NXXNXXXXXX]
+(+1)   &#91;NXXNXXXXXX]
+(1855) &#91;NXXXXXX]
+( )    &#91;]
+
+<em>The () represents a prepend and &#91;] represents a match pattern.</em></code></pre>
+
+
+
+<div class="wp-block-group has-accent-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<p style="padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);padding-left:var(--wp--preset--spacing--10)"><strong>Note</strong><br>The <strong>+1</strong> was important to implement because Twilio wanted a number formatted in <strong><a href="https://voipstudio.com/blog/what-is-the-e-164-format-and-how-to-use-it-correctly/">E.164</a> format</strong> which meant that it needed to have the country code, +1 in this case. I was getting the <strong>32101 error</strong> on Twilio stating the &#8220;called number is not correctly formatted&#8221; and it was suggesting that I format the number in E.164 format which ended up fixing the problem.</p>
+</div>
+
+
+
+<h2 class="wp-block-heading">
+<span class="ez-toc-section" id="Outbound_Call_Established"></span>Outbound Call Established<span class="ez-toc-section-end"></span>
+</h2>
+
+
+
+<p>I was able to call my cell phone from my VoIP phone. Unfortunately, when I tried to call another external number, I got an error saying <strong>trial accounts can only call verified caller IDs</strong>. After creating an account on Twilio and adding some funds, I was able to call more external numbers.</p>
+
+
+
+<h2 class="wp-block-heading">
+<span class="ez-toc-section" id="Inbound_Call_Established"></span>Inbound Call Established<span class="ez-toc-section-end"></span>
+</h2>
+
+
+
+<p>I was now able to have inbound calls arrive at my FreePBX server and to my VoIP phone.</p>
+
+
+
+<div class="wp-block-group has-accent-background-color has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<p style="padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);padding-left:var(--wp--preset--spacing--10)"><strong>Note</strong><br>In order for inbound calls to be received, the server must be able to be reached over SIP port 5060 and over the RTP port range 10000-20000.</p>
+</div>
+
+
+
+<h2 class="wp-block-heading">
+<span class="ez-toc-section" id="Completion"></span>Completion<span class="ez-toc-section-end"></span>
+</h2>
+
+
+
+<p><strong><em>10/8/2024</em></strong></p>
+
+
+
+<p>This project was completed in about 12 days, starting from 9/26/2024. I have accomplished all the goals I envisioned for this project. I will continue to work on it by pursuing my post-project goals.</p>
+</div>
+
+	
+	<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50)">
+		
+
+		
+		<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+			
+			<div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer">
+			</div>
+			
+
+			
+			<hr class="wp-block-separator has-text-color has-contrast-3-color has-alpha-channel-opacity has-contrast-3-background-color has-background is-style-wide" style="margin-bottom:var(--wp--preset--spacing--40)">
+			
+
+			
+
+<div class="wp-block-comments wp-block-comments-query-loop">
+	
+	<h2 class="wp-block-heading">Comments</h2>
+	
+	
+	
+
+	
+
+		<div id="respond" style="padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);" class="comment-respond wp-block-post-comments-form">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2024/10/cisco-7945g-freepbx/#respond" style="display:none;">Cancel reply</a></small>
+</h3>
+<form action="/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message">Required fields are marked <span class="required">*</span></span></p>
+<p class="comment-form-comment"><label for="comment">Comment <span class="required">*</span></label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required></textarea></p>
+<p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" autocomplete="name" required></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" autocomplete="email" required></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" autocomplete="url"></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="form-submit wp-block-button"><input name="submit" type="submit" id="submit" class="wp-block-button__link wp-element-button" value="Post Comment"> <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p>
+</form>	</div>
+<!-- #respond -->
+	
+</div>
+
+
+
+			
+
+<nav class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-24 wp-block-group-is-layout-flex" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)" aria-label="Posts">
+	<div class="post-navigation-link-previous wp-block-post-navigation-link"></div>
+	<div class="post-navigation-link-next wp-block-post-navigation-link">
+<a href="/2025/02/asterisk-tells-me-about-the-weather-in-dallas/" rel="next"><span class="post-navigation-link__label">Next: </span> <span class="post-navigation-link__title">Asterisk Tells Me About the Weather in Dallas</span></a><span class="wp-block-post-navigation-link__arrow-next is-arrow-arrow" aria-hidden="true">→</span>
+</div>
+</nav>
+
+
+
+		</div>
+		
+	</div>
+	
+</main>
+
+
+<footer class="wp-block-template-part">
+<div class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
+<div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:30%">
+<div class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-28 wp-block-group-is-layout-flex">
+<div class="wp-block-site-logo"><a href="/" class="custom-logo-link" rel="home"><img loading="lazy" width="62" height="62" src="/wp-content/uploads/2024/10/bvaic-icon.png" class="custom-logo" alt="bvaic.com" decoding="async" srcset="/wp-content/uploads/2024/10/bvaic-icon.png 500w, /wp-content/uploads/2024/10/bvaic-icon-300x300.png 300w, /wp-content/uploads/2024/10/bvaic-icon-150x150.png 150w" sizes="(max-width: 62px) 100vw, 62px"></a></div>
+
+<p class="wp-block-site-title has-medium-font-size"><a href="/" target="_self" rel="home">bvaic.com</a></p>
+
+</div>
+</div>
+</div>
+
+
+
+<div class="wp-block-group alignwide is-layout-flow wp-block-group-is-layout-flow" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:0">
+<p class="has-contrast-2-color has-text-color has-link-color has-small-font-size wp-elements-fb1dc8a358d6c5ee50b4614eb09d35bb">
+		Designed with <a href="https://wordpress.org/" rel="nofollow">WordPress</a>		</p>
+</div>
+</div>
+</footer>
+</div>
+<script src="/wp-content/plugins/code-block-pro/build/front/front.js?ver=9e61187462c44495f394" id="kevinbatdorf-code-block-pro-view-script-js" data-wp-strategy="defer"></script>
+<script id="kevinbatdorf-code-block-pro-view-script-js-after">window.codeBlockPro = {"pluginUrl":"\/wp-content\/plugins\/code-block-pro\/"};</script>
+<script src="/wp-includes/js/comment-reply.min.js?ver=6.6.2" id="comment-reply-js" async data-wp-strategy="async"></script>
+<script id="wp-block-template-skip-link-js-after">( function() {
+		var skipLinkTarget = document.querySelector( 'main' ),
+			sibling,
+			skipLinkTargetID,
+			skipLink;
+
+		// Early exit if a skip-link target can't be located.
+		if ( ! skipLinkTarget ) {
+			return;
+		}
+
+		/*
+		 * Get the site wrapper.
+		 * The skip-link will be injected in the beginning of it.
+		 */
+		sibling = document.querySelector( '.wp-site-blocks' );
+
+		// Early exit if the root element was not found.
+		if ( ! sibling ) {
+			return;
+		}
+
+		// Get the skip-link target's ID, and generate one if it doesn't exist.
+		skipLinkTargetID = skipLinkTarget.id;
+		if ( ! skipLinkTargetID ) {
+			skipLinkTargetID = 'wp--skip-link--target';
+			skipLinkTarget.id = skipLinkTargetID;
+		}
+
+		// Create the skip link.
+		skipLink = document.createElement( 'a' );
+		skipLink.classList.add( 'skip-link', 'screen-reader-text' );
+		skipLink.href = '#' + skipLinkTargetID;
+		skipLink.innerHTML = 'Skip to content';
+
+		// Inject the skip link.
+		sibling.parentElement.insertBefore( skipLink, sibling );
+	}() );</script>
+<script id="ez-toc-scroll-scriptjs-js-extra">var eztoc_smooth_local = {"scroll_offset":"30","add_request_uri":""};</script>
+<script src="/wp-content/plugins/easy-table-of-contents/assets/js/smooth_scroll.min.js?ver=2.0.72" id="ez-toc-scroll-scriptjs-js"></script>
+<script src="/wp-content/plugins/easy-table-of-contents/vendor/js-cookie/js.cookie.min.js?ver=2.2.1" id="ez-toc-js-cookie-js"></script>
+<script src="/wp-content/plugins/easy-table-of-contents/vendor/sticky-kit/jquery.sticky-kit.min.js?ver=1.9.2" id="ez-toc-jquery-sticky-kit-js"></script>
+<script id="ez-toc-js-js-extra">
+var ezTOC = {"smooth_scroll":"1","visibility_hide_by_default":"","scroll_offset":"30","fallbackIcon":"<span class=\"\"><span class=\"eztoc-hide\" style=\"display:none;\">Toggle<\/span><span class=\"ez-toc-icon-toggle-span\"><svg style=\"fill: #999;color:#999\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" class=\"list-377408\" width=\"20px\" height=\"20px\" viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z\" fill=\"currentColor\"><\/path><\/svg><svg style=\"fill: #999;color:#999\" class=\"arrow-unsorted-368013\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"10px\" height=\"10px\" viewBox=\"0 0 24 24\" version=\"1.2\" baseProfile=\"tiny\"><path d=\"M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z\"\/><\/svg><\/span><\/span>","chamomile_theme_is_on":""};
+</script>
+<script src="/wp-content/plugins/easy-table-of-contents/assets/js/front.min.js?ver=2.0.72-1740279598" id="ez-toc-js-js"></script>
+<div id="turnkey-credit"> <div style="clear: both;"> <a href="https://www.turnkeylinux.org/wordpress">WordPress Appliance</a> - Powered by <a href="https://www.turnkeylinux.org/">TurnKey Linux</a> </div> </div>
+</body>
+</html>
